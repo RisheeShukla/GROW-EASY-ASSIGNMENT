@@ -101,7 +101,16 @@ PORT=8000
 The frontend already contains a `.env` file with Firebase and API configuration values. If you want to run the backend locally instead of using the deployed backend URL, update:
 
 ```env
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+NEXT_PUBLIC_API_BASE_URL=
+
+//Firebase configurations
+NEXT_PUBLIC_API_KEY=
+NEXT_PUBLIC_AUTH_DOMAIN=
+NEXT_PUBLIC_PROJECT_ID=
+NEXT_PUBLIC_STORAGE_BUCKET=
+NEXT_PUBLIC_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_APP_ID=
+
 ```
 
 You should also ensure the Firebase keys in the frontend environment file are valid for your Firebase project.
