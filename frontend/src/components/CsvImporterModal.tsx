@@ -88,7 +88,7 @@ export default function CsvImporterModal({ onClose }: { onClose: () => void }) {
     formData.append("file", file);
 
     try {
-      const response = await axios.post("http://localhost:8000/api/import-csv", formData, {
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_BASE_URL}/api/import-csv`, formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
