@@ -1,3 +1,5 @@
+<h2>Deploymrnt Link </h2>  <Link> https://grow-easy-assignment-eta.vercel.app/ </Link>
+
 # GrowEasy CRM Extraction
 
 GrowEasy CRM Extraction is a full-stack AI-powered lead ingestion application that turns raw CSV contact data into structured CRM-ready records. The project combines a modern Next.js frontend, an Express API, and Google Gemini-powered extraction to streamline lead processing workflows.
