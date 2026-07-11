@@ -93,7 +93,6 @@ export default function CsvImporterModal({ onClose }: { onClose: () => void }) {
       });
 
       setResults(response.data);
-      console.log("Import Results:", response.data);
       toast.update(toastId, { render: "Import successful!", type: "success", isLoading: false, autoClose: 3000 });
       setStep("RESULT");
     } catch (error) {
