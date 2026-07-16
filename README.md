@@ -1,4 +1,4 @@
-<h2>Deploymrnt Link </h2>  <Link> https://grow-easy-assignment-eta.vercel.app/ </Link>
+<h2>Deployment Link </h2>  <Link> https://grow-easy-assignment-eta.vercel.app/ </Link>
 
 # GrowEasy CRM Extraction
 
